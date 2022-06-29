@@ -7,8 +7,7 @@
 #### This is the Rules frame where the rules for the Quiz are displayed after reading the rules user can either click the Start button to start the quiz or click the Back button to move to the First frame.
 ![image](https://user-images.githubusercontent.com/93242916/176434034-3e6d6d91-b62d-431e-9779-1d8828d2ffee.png)
 
-#### This is the Quiz frame where the question and the 4 options for the question could be seen.
-#### On the top-right corner how much time is left to answer that particular question is visible.
+#### This is the Quiz frame where the question and the 4 options for the question could be seen. On the top-right corner how much time is left to answer that particular question is visible.
 #### The user has three button : 
 #### --> Next button : To move to the next question.
 #### --> Lifeline button : When the user clicks this button two wrong options would be disabled.
