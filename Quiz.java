@@ -170,7 +170,7 @@ public class Quiz extends JFrame implements ActionListener{
     
     public void actionPerformed(ActionEvent e) {
         if(e.getSource() == next){
-            //repaint();
+            
             opt1.setEnabled(true);
             opt2.setEnabled(true);
             opt3.setEnabled(true);
@@ -225,7 +225,6 @@ public class Quiz extends JFrame implements ActionListener{
         
         if(timer > 0){
             g.drawString(time, 1020, 440);
-            //System.out.println(timer);
         }else{
             g.drawString("Times Up!!", 1020, 440);
         }
@@ -234,9 +233,8 @@ public class Quiz extends JFrame implements ActionListener{
         
         if(ans_given == 1){
             ans_given = 0;
-            //timer = 15;
         }
-        //System.out.println(ans_given);
+        
         if(timer < 0){ // this happens when timer is up and user is not able to reply
             timer = 15;
             opt1.setEnabled(true);
